@@ -1,0 +1,22 @@
+.container{
+    /* background: white !important; */
+    height: 100% !important;
+    width: 100% !important;
+    /* align-content: center; */
+    text-align: center;
+}
+.fdiv{
+    display: grid;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    
+}
+.sdiv{
+    /* text-align: center; */
+    /* align-self: center; */
+    /* align-content: center; */    
+    margin: auto;
+    width: 20%;
+    border: 3px solid green;
+    padding: 10px;
+}

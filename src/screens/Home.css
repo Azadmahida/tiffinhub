@@ -1,0 +1,101 @@
+.rdiv{
+    display: flex;
+    gap: 3.2%;
+    /* column-gap: 2.5%; */
+    /* flex: auto; */
+    /* columns: 20 !important; */
+    /* flex: auto !important; */
+    /* width: 100%; */
+}
+
+/* .container{ */
+  /* display: flex; */
+  /* flex-wrap: wrap !important; */
+/* } */
+.cdiv{
+  margin-top: 2%;
+  margin-bottom: 10% !important;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+.keydiv{
+  /* position: relative; */
+  /* left: 10%; */
+  /* display: flex; */
+    font-size: 1.875rem;
+    /* flex-flow: wrap; */
+    
+}
+/* .fildiv{ */
+    /* columns: 12; */
+    /* display: flex; */
+    /* flex-wrap: ; */
+/* } */
+/* .absolute{
+    position: relative;
+} */
+*{
+  margin: 0;
+  padding: 0;
+}
+.relative{
+  margin-top: 1px;
+  /* border:  solid black; */
+  margin-bottom: 5px;
+}
+.carousel-inner{
+  position: absolute;
+/* left: 623px;   */
+
+/* background-color: black; */
+z-index: 30;
+}
+
+.form-control{
+  height: 34px;
+  width: 380px;
+  position: relative;
+  left: 535px;
+  top: 337px;
+  border-radius: 3px;
+  border: 2px solid rgb(177, 222, 17);
+}
+.form-button{
+  background-color: #555 !important;
+  /* background-color: aqua !important; */
+  height: 34px;
+  width: 100px;
+  position: relative;
+  left: 545px;
+  top: 337px;
+  border-radius: 5px;
+  border: 2px solid black;
+  color: azure;
+}
+
+.form-button:hover {
+  background-color: #777 !important;
+}
+
+.inline-flex{
+  background-color: black !important;
+}
+/* .items{
+  
+} */
+#default-carousel {
+  position: relative;
+}
+
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  /* Subtracting padding from width */
+}
+
+@media (min-width: 640px) {
+  input[type="text"] {
+    width: calc(50% - 20px);
+    /* Subtracting padding from width */
+  }
+  }
